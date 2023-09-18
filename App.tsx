@@ -10,7 +10,7 @@ const LATITUDE = 41.9160547;
 const LONGITUDE = 12.4571116;
 const LATITUDE_DELTA = 0.0922;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
-const API_URL = "http://10.0.2.2/api/locations";
+const API_URL = "https://2295a967-bf39-4526-948c-169b249616fd.mock.pstmn.io/api/locations";
 const staticMarkers = [];
 
 class MassiveCustomMarkers extends React.Component<any, any> {
